@@ -31,11 +31,34 @@
  */
 // 从数组的第几个格子开始获取一个数字
 
+// 字典序  'a' 97 'b' 98
+/*
+ * 定义泛型
+ * int
+ * 不止支持函数重载  运算符重载 运算符行为
+ * +
+ * T max(T a, T b) {
+ * if (a > b
+ * }
+ */
+
+// 重载
+
+int max(int a, int b) {
+    if (a > b) {
+        return a;
+    }
+
+    return b;
+}
+
 // "12+24\0"
 // 写一个函数 重点是功能是啥
 int getNumber(char *src, int offset, int *index, int *flag) {
 
     // 贯穿整个学习过程
+    // 用的所有的类型都是基本类型
+    // 学一下复合类型
     /*
      * 输入用户名
      * 密码
